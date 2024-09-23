@@ -119,6 +119,8 @@ def main():
         elif opcao == "2":
             valor = float(input("Informe o valor do depósito: "))
 
+            saldo, extrato = depositar(saldo, valor, extrato)
+
         elif opcao == "3":
             valor = float(input("Informe o valor do saque: "))
 
